@@ -12,9 +12,8 @@
 >일반적으로 ajax를 통해 JSON을 주고 받는다.
 
 <img src = "./images/02-service-database-01.PNG" width = "1000px"> </img>
-=======
+
 <img src = "./images/02-service-database-01.png" width = "1000px"> </img>
->>>>>>> refs/remotes/origin/master
 
 ## 2. 사용법
 ### 2.1. 생성
