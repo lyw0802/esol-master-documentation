@@ -13,8 +13,6 @@
 
 <img src = "./images/02-service-database-01.PNG" width = "1000px"> </img>
 
-<img src = "./images/02-service-database-01.png" width = "1000px"> </img>
-
 ## 2. 사용법
 ### 2.1. 생성
 
