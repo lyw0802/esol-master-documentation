@@ -21,7 +21,7 @@
     * [SAP 연결](./connection-information/01-connection-information-sap.md) 
 * [관리도구](./management-tools)
     * [서비스 그룹](./management-tools/03-management-tools-service-group.md) 
-    * [접속(인증) 관리](./management-tools/03-management-tools-access-manager.md)
+    * [접속(인증) 관리](./management-tools03-management-tools-service-access-manager.md)
     * [java lib(jar) 관리](./management-tools/03.management-javalib.md)
     * 관리자
     * 접속로그
