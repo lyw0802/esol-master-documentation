@@ -18,7 +18,7 @@
 
 🎈 __Menu > 서비스 > DB Service > 생성__
 
-<img src = "./images/02-service-database-02-1.PNG" width = "400px"> </img>
+<img src = "./images/02-service-database-02-1.PNG" width = "500px"> </img>
 
 ### 2.2. 속성
 
