@@ -10,7 +10,7 @@
 ### 1.2. 구조
 >DB Service(쿼리)를 작성(등록)하면 WEB상에 호출가능한 서비스(POST)로 생성<br/>
 >일반적으로 ajax를 통해 JSON을 주고 받는다.
-
+![Image Of Architecture](./images/02-service-database-01.png)
 <img src = "./images/02-service-database-01.png" width = "1000px"> </img>
 
 ## 2. 사용법
