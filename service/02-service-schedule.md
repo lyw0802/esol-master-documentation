@@ -42,7 +42,7 @@
 - __구분 - JAVA class 파일 선택 시__
 	- "Java class 파일" 은 org.quartz.Job의 interface를 사용하여 빌드해야 만 정상 작동  
 	- 매뉴얼 참조 및  샘플파일 참고  
-	- 등록이나 수정시에 반드시 class 파일이 platform 내부에 먼저 존재 해야 가능
+	- 등록이나 수정시에 반드시 class 파일이 내부에 먼저 존재 해야 가능
 
 ```java
 Schedule 서비스에 등록될 JAVA 기본 구조
