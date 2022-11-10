@@ -337,7 +337,7 @@ input key : IN
 - Query  
 ```sql         
 SELECT  	A.USER_ID
-,  			A.USER_NAME
+,  		A.USER_NAME
 FROM  		TB_USER A
 WHERE   	1=1
 <!
