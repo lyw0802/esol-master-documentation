@@ -363,17 +363,17 @@ WHERE   1=1
 <!
    if(data.USER_IDS !== undefined){
       if(data.USER_IDS.length>0){
-		 var strIns="";
-		 for(var i=0;i<data.USER_IDS.length;i++){
-	   		var json = data.USER_IDS[i];
+	var strIns="";
+	for(var i=0;i<data.USER_IDS.length;i++){
+  		var json = data.USER_IDS[i];
 	    	if(i==0){
 	       		strIns+="'"+json.USER_ID+"'";
 	    	}else{
 	       		strIns+=",'"+json.USER_ID+"'";
 	    	}
-	 	 }
-	 	strIns = "("+strIns+")";
-	 	out.append("AND A.USER_ID IN " + strIns + " ");
+	 }
+	 strIns = "("+strIns+")";
+	 out.append("AND A.USER_ID IN " + strIns + " ");
       }
    }
 !> 
