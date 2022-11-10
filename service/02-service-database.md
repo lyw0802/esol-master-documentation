@@ -387,7 +387,7 @@ WHERE   1=1
 ```sql         
 <!
     if(data.USER_ID == ‘admin’ ){
-   		dbexception(“ admin 은 사용 불가 ”);
+   	dbexception(“ admin 은 사용 불가 ”);
     }
     if(data.USER_ID == ‘manager’ ){
        skip();
@@ -431,11 +431,11 @@ __예) --java method__
 ```         
 package com.test;
 public class TEST {
-   		public TEST(){
+   	public TEST(){
         }
-  		public String testMehod(String strName){
-          	return strName + “ method call ”;
-   		}    
+  	public String testMehod(String strName){
+        return strName + “ method call ”;
+   	}    
 };
 ```
 
@@ -460,7 +460,7 @@ SELECT  {'#@com.test. TEST()@ testMehod(NAME1)#'} AS NAME
    			"message": "1 row(s) returned",
    			"list": [{
        			"NAME" : "NAME1 method call "
-       		}]
+       			}]
 		}
 	}
 };
@@ -476,20 +476,20 @@ import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
 public class TEST {
    	public TEST(){
-    }
-   		public String testMehod(JSONArray list){
-           	String rtn = “”;
-           	for( int i=0;i<list.size();i++ ){
-               String result = this. execute(list.getJSONObject(i));
-               list.getJSONObject(i).put(“RESULT” , result ); // 처리결과를 json에 입력
+    	}
+   	public String testMehod(JSONArray list){
+        	String rtn = “”;
+        	for( int i=0;i<list.size();i++ ){
+               		String result = this. execute(list.getJSONObject(i));
+               		list.getJSONObject(i).put(“RESULT” , result ); // 처리결과를 json에 입력
            	}
            	return rtn; 
-   		}
-   		private String execute(JSONObject json){
-           	String rtn = “”;
+   	}
+   	private String execute(JSONObject json){
+        	String rtn = “”;
             	// json으로 값을 처리 , 성공은 “1” , 실패는 : “0”
            	return rtn;
-   		}   
+   	}   
 };
 ```
 
