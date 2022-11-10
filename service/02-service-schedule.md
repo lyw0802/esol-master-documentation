@@ -34,7 +34,7 @@
 <img src = "./images/02-service-schedule-01-3.PNG" width = "550px"> </img>
 
 - __DB Service ID 선택 시__
-	- "DB Service" 는 platform에 등록된 DB Service를 호출하는 방식  
+	- "DB Service" 는 등록된 DB Service를 호출하는 방식  
 	- Schedule 서비스는 자동으로 실행되는 서비스 이므로 입력값이 필요없는 DB Service를 만들어 사용
 
 
