@@ -84,9 +84,9 @@
 ##### 2.3.2.1. 쿼리 작성 예시 SELECT SAMPLE (입력 KEY : IN)
 ```sql
 SELECT  a.USER_ID
-,		a.NAME
-,		a.PHONE
-,		a.REG_DATE
+,	a.NAME
+,	a.PHONE
+,	a.REG_DATE
 FROM    TB_USER a
 WHERE   a.USER_ID={'$USER_ID$'}  /*세션변수*/
 AND     a.NAME LIKE {'#NAME#'}   /*일반변수*/
