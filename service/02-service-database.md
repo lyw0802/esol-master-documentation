@@ -321,11 +321,11 @@ input key : IN
 
 | 객체명 | 타입 | 설명 |
 |:--:|:--:|:--|
-| Data | JSON Object | input > Array의 record를 담은 JSON객체 <br/> 예) input: "IN":[<span style="color:red">{"ID":"ID" , "NAME":"NAME"}</span>] <br/> data.ID , data.NAME 으로 사용 |
-| Session | JSON Object | Session 변수를 담은 JSON 객체 |
-| Out | Object | (append(obj), toString()만 있음) Output 객체 |
-| Skip | function | 특정 조건에서 Query를 실행하지 않고 Exception도 발생되지 않는 기능<br/> for문의 continue 같은 기능 |
-| DBexception | function | 특정 조건에서 Query를 실행하지 않고 Exception을 발생 시켜서<br/> rollback 되고 DB Service를 빠져 나가는 기능 <br/> 예)dbexception("유효하지 않은 값입니다."); |
+| data | JSON Object | input > Array의 record를 담은 JSON객체 <br/> 예) input: "IN":[<span style="color:red">{"ID":"ID" , "NAME":"NAME"}</span>] <br/> data.ID , data.NAME 으로 사용 |
+| session | JSON Object | Session 변수를 담은 JSON 객체 |
+| out | Object | (append(obj), toString()만 있음) Output 객체 |
+| skip | function | 특정 조건에서 Query를 실행하지 않고 Exception도 발생되지 않는 기능<br/> for문의 continue 같은 기능 |
+| dbexception | function | 특정 조건에서 Query를 실행하지 않고 Exception을 발생 시켜서<br/> rollback 되고 DB Service를 빠져 나가는 기능 <br/> 예)dbexception("유효하지 않은 값입니다."); |
 | update<br/>JsonObject | function | 위의 data 객체는 readonly이나 data의 값을 변경을 하고 싶은 경우 사용<br/> 예) data.NAME='다른이름'; <br/> data.ADD_VAL='추가 변수'; <br/> updateJsonObject(data); |
 | _inputJson | java object<br/>(net.sf.json.JSONObject) | input data 전체가 들어있는 JSONObject 객체 |
 | _outputJson | java object<br/>(net.sf.json.JSONObject) | output data 전체가 들어있는 JSONObject 객체 |
