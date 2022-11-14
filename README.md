@@ -30,5 +30,5 @@
 	* [로그 통계 보기](./log-tools/04.log-tools-statistics.md)
 	* [로그 실행수 Top](./log-tools/04.log-tools-log-top.md)
 	* [로그 실행시간 Top](./log-tools/04.log-tools-log-time-top.md)
-	* [로그 실시간 사용량](./log-tools/04.log-tools-logreal time.md)
+	* [로그 실시간 사용량](./log-tools/04.log-tools-logreal-time.md)
 	* [Proxy 로그 보기](./log-tools/04.log-tools-proxy-log.md)
