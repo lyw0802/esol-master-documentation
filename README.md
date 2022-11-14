@@ -22,7 +22,7 @@
 * [관리도구](./management-tools)
     * [서비스 그룹](./management-tools/03-management-tools-service-group.md) 
     * [접속(인증) 관리](./management-tools/03-management-tools-service-access-manager.md)
-    * [java lib(jar) 관리](./management-tools03-management-tools-service-javalib.md)
+    * [java lib(jar) 관리](./management-tools/03-management-tools-service-javalib.md)
     * [관리자](./management-tools/03.management-manager.md)
     * [접속로그](./management-tools/03.management-access-log.md) 
 * [로그](./log-tools)
