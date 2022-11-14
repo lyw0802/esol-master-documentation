@@ -34,10 +34,9 @@
 
 #### 2.2.1. 속성 DB Service
 
-<img src = "./images/02-service-memory-01-3.PNG" width = "600px"> </img>
-
 - 속성 > 구분 > DB Service(Read Only) 선택 시 미리 생성한 DB Service 항목들 중 선택 가능
 
+<img src = "./images/02-service-memory-01-3.PNG" width = "600px"> </img>
 
 #### 2.2.2. 속성 직접입력
 
