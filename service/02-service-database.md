@@ -424,7 +424,7 @@ String, int, long, float, double, JSONObject, JSONArray
 2. ""은 String으로 인식
 	method("직접입력")  
 3. 인수형식 입력 # 으로 구분
-	method(int#1, long#100, float#1.1, double#1.11, JSONObject:IN[0], JSONArray#RS)
+	method(int#1, long#100, float#1.1, double#1.11, JSONObject#IN[0], JSONArray#RS)
 ```
 
 __예) --java method__
