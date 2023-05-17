@@ -171,6 +171,7 @@ CREATE TABLE tb_user_auth_history (
     <pre><code>
 
     /* 2. 정보 확인 및 로그인 처리 , 히스토리 생성*/
+    
     <!
             /* 정보 얻기 */
             /* ID에 대한 정보가 있는지 확인 */
