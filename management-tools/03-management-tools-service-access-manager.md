@@ -142,7 +142,9 @@ CREATE TABLE tb_user_auth_history (
 3. 조회 쿼리 생성
 
     사용자 정보 조회 및 ID , 암호 체크 쿼리
+    
     <img src = "./images/dbs_auth002.png" width = "400"> </img>
+    
     <pre><code>
     /* 1. 사용자 정보 조회  (ID , PASSWORD 입력)  */
 
