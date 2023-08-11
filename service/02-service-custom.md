@@ -6,8 +6,7 @@
 ### 1.1. 정의
  >DB 서비스만으로 처리가 불가능한 기능들에 대해 직접 java 코딩하여 로직을 구현한 서비스 호출을 할 수 있는 서비스,  
  >application 환경설정 파일의 설정에 따라 웹에서 코딩을 하여 사용하거나, 직접 업로드하여 사용,  
- >웹코딩과 직접 업로드 설정은 환경설정 파일인 ./config/platform.json 에서  
- 'classFileType': 0 (class 파일 직접업로드), 1 (웹코딩) 설정 가능  
+ 
   
 >직접 업로드 시 class 파일의 경로는 보통 './project/WEB-INF/classes' (변경 가능)
 
@@ -111,7 +110,7 @@ public class GetDBConnection {
 
         try {
             // DB연결ID는 platform 관리자 화면에서 연결정보 -> DB연결 메뉴에서 만들어둔 DB연결ID 입력
-            conn = iDataBaseConnectionPoolService.getConnection("DB연결ID");
+            conn = iDataBaseConnectionPoolService.getConnection((String)map.get("ORG_ID"),"DB연결ID");
             if (conn == null) {
                 throw new Exception("Database 시스템 연결을 못했습니다. 잠시후 다시 시도해주세요.");
             }
@@ -143,7 +142,7 @@ public class UsingDBService {
         try {
             // DB Service 테스트 실행시 사용하는 문법확인 필요
             JSONObject inJson=JSONObject.fromObject("json");
-            JSONObject outJson = iExecDataBaseService.getDataBaseService("DB Service ID", inJson, request);
+            JSONObject outJson = iExecDataBaseService.getDataBaseService((String)map.get("ORG_ID"),"DB Service ID", inJson, request);
             if(outJson.getBoolean("success")) {
                 //outJson 정보를 사용하여 작업
             }
@@ -172,7 +171,7 @@ public class UsingSapService {
             JSONObject inJson = JSONObject.fromObject(
                 "{\"input\": {\"IMPORT_PARAMETER\": {\"I_TYPE\": \"0\"},\"TABLE\": {\"I_VBELN\": {\"item\": [{}]}}}}"
             );  
-            JSONObject outJson = iExecSapService.getSapService("SAP Service ID", inJson);
+            JSONObject outJson = iExecSapService.getSapService((String)map.get("ORG_ID"),"SAP Service ID", inJson);
             if(outJson.getBoolean("success")) {
                 //outJson 정보를 사용하여 작업
             }
