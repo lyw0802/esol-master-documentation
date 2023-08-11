@@ -26,7 +26,7 @@
 
 | 구분 | 설명 |  
 |:--:|:--|  
-| DB 서비스 ID | 고유한 ID (중복불가, 알파벳, 숫자, 특수문자('_') 30자이내)<br/> {host}/svc/db/{application id}/{DB서비스ID} 로 호출되어지는 서비스로 생성<br/> 단, application 구분이 Main인 경우는<br/> {host}/svc/db/{DB서비스ID} < application id 생략 가능|
+| DB 서비스 ID | 고유한 ID (중복불가, 알파벳, 숫자, 특수문자('_') 50자이내)<br/> {host}/svc/db/{application id}/{DB서비스ID} 로 호출되어지는 서비스로 생성<br/> 단, application 구분이 Main인 경우는<br/> {host}/svc/db/{DB서비스ID} < application id 생략 가능|
 | DB 서비스명 | 이름, 혹은 설명을 입력, 작업자가 구분하기 위해 사용 |
 | 그룹 | 작업자가 구분하기 위해 사용 |
 | DB 연결 ID | DB서비스에서 기본적으로 사용할 DB POOl(connection)<br/> menu > 연결정보 > DB연결 에서 생성된 pool<br/>[DB POOL 생성 방법 참조](/connection-information/01-connection-information-database.md) |
