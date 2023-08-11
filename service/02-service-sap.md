@@ -20,7 +20,7 @@
 
 | 구분 | 설명 |
 |:--:|:--|
-| SAP 서비스 ID | 고유한 ID(중복 불가, 영어, 숫자, underscore('_') 5자 이상 50자 이내<br/>{host}/svc/sap/{userName}{SAP 서비스ID} 로 호출되어지는 서비스로 생성 |
+| SAP 서비스 ID | 고유한 ID(중복 불가, 영어, 숫자, underscore('_') 5자 이상 50자 이내<br/>{host}/svc/sap/{application id}/{SAP 서비스ID} 로 호출되어지는 서비스로 생성 |
 | SAP 서비스명 | 이름, 혹은 설명입력, 작업자가 구분하기 위해 사용 |
 | 그룹 | 작업자가 구분하기 위해 사용 |
 | SAP 연결 ID | SAP서비스에서 기본적으로 사용할 SAP POOL(connection)<br/>menu > 연결정보 > SAP연결 에서 생성된 pool <br/>[SAP POOL 생성 방법 참조](/connection-information/01-connection-information-sap.md) |
