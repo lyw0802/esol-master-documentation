@@ -22,7 +22,7 @@
 
 | 구분 | 설명 |
 |:--:|:--|
-| Memory Data 서비스 ID | 고유한 ID(중복 불가, 영어, 숫자, underscore('_') 5자 이상 50자 이내<br/>{host}/svc/md/{userName}{Memory Data서비스ID} 로 호출되어지는 서비스로 생성 |
+| Memory Data 서비스 ID | 고유한 ID(중복 불가, 영어, 숫자, underscore('_') 5자 이상 50자 이내<br/>{host}/svc/md/{application id}/{Memory Data서비스ID} 로 호출되어지는 서비스로 생성 |
 | Memory Data 서비스명 | 이름, 혹은 설명입력, 작업자가 구분하기 위해 사용 |
 | 그룹 | 작업자가 구분하기 위해 사용 |
 | 상태 | 서비스 사용 상태 구분, 활성 / 비활성 선택하여 사용 선택가능 |
