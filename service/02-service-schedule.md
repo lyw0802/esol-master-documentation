@@ -34,7 +34,7 @@
 | Cron Exp | 실행 주기 설정 |
 
 
-#### 2.2.1. DB Service ID
+#### 2.2.1. DB Service ID (권장)
 
 <img src = "./images/02-service-schedule-01-3.PNG" width = "550px"> </img>
 
@@ -43,7 +43,7 @@
 	- Schedule 서비스는 자동으로 실행되는 서비스 이므로 입력값이 필요없는 DB Service를 만들어 사용
 
 
-#### 2.2.2. JAVA class 파일
+#### 2.2.2. JAVA class 파일 (권장 하지 않음)
 - __구분 - JAVA class 파일 선택 시__
 	- "Java class 파일" 은 org.quartz.Job의 interface를 사용하여 빌드해야 만 정상 작동  
 	- 매뉴얼 참조 및  샘플파일 참고  
