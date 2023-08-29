@@ -10,7 +10,7 @@
   
 >직접 업로드 시 class 파일의 경로는 보통 './project/WEB-INF/classes' (변경 가능)
 
->Custom Serivce는 사용을 권장하지 않습니다.
+> Custom Serivce는 사용을 권장하지 않습니다.
 
 ## 2. 사용법
 
