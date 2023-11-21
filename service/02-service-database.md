@@ -61,7 +61,7 @@
 | Select Option | Query 유형이 SELECT인 경우만 해당함<br/> First Only : 입력값 Array중 첫번째 record에 대해서만 SELECT <br/>Each : 입력값 Array를 각각 SELECT (마지막 record에 대한 목록만 반환) <br/> Add : 입력값 Array를 각각 SELECT 하고 목록에 추가해서 전체를 반환 |
 | 입력 Key | 쿼리가 입력받은 json에서 입력부분 Array의 KEY값을 정의<br/>예) 입력 KEY : IN1<br />json data를  아래와 같은 구조로 입력<br/>```json {"input": {"IN1": [{"USER_LOGIN": ""}]}};``` |
 | 출력 Key | 쿼리 수행 후 결과값의 KEY값 정의 |
-| 출력 구분 | 결과값에 대한 정의 <br/> (내부적으로 필요하나 사용자에게 보여지면 안되는 정보인 경우에 사용) <br/> dafault : 결과 전체를 반환 <br/> List Clear : SELECT인 경우 목록을 삭제하고 반환 <br/> All Clear : 전체 결과를 삭제  |
+| 출력 구분 | 결과값에 대한 정의 <br/> (내부적으로 필요하나 사용자에게 보여지면 안되는 정보인 경우에 사용) <br/> default : 결과 전체를 반환 <br/> List Clear : SELECT인 경우 목록을 삭제하고 반환 <br/> All Clear : 전체 결과를 삭제  |
 | 쿼리 작성 | 실제 수행될 쿼리를 작성<br/>[2.3.2 Query 작성 참조](#232-Query-작성) |
 
 #### 2.3.2. Query 작성 
