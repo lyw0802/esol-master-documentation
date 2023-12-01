@@ -17,6 +17,18 @@
 - PRESTO
 - SQLITE
 
+### 1.3. 주요기능 및 부가기능
+<img src = "./images/01-01-connection-information-database-01-3.png" width = "600px"> </img>
+| 기능 | 설명 |  
+|:--:|:--|  
+| 검색  | 전체 DB연결 정보를 조회 |
+| Text Export  | 조회된 화면(목록)을 Text 로 Export |
+| 프린트  | 조회된 화면(목록) 인쇄 |
+| 생성  | DB연결 생성 |
+| 수정  | 조회된 화면(목록)에서 선택된 DB연결 수정 |
+| 삭제  | 조회된 화면(목록)에서 선택된 DB연결 삭제 |
+| Schema<BR/>Viewer  | 선택된 DB연결로 Database의 Schema를<BR/> 간단하게 확인 할 수 있는 기능<BR/>단. Database Vender에서 제공하는 Tool를 사용할 것을 권장<BR/>  |
+
 ## 2. 사용법
 ### 2.1. 생성
 
@@ -63,3 +75,12 @@
 | DB연결 설명| DB 정보 기입 |
 | 그룹| DB서비스에 연결할 그룹ID 선택  |
 | JNDI| 연결할 JNDI 선택 |
+
+### 2.4. Schema Viewer
+
+<img src = "./images/01-01-connection-information-database-02-4.png" width = "400px"> </img>
+
+목록에 선택된 DB연결(연결상태가 연결성공인 경우)의 Schema를 확인 할 수 있습니다.<BR/>
+단. Schema가 복잡하고 많은 경우 화면이 팝업되는게 느려질수 있습니다.
+<BR/>
+일반적인 Database Tool(Workbench, DBeaver등) 사용을 권장 
