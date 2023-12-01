@@ -13,7 +13,7 @@
 <img src = "./images/03-01-management-tools-service-group-01-2.png" width = "600px"> </img>
 | 기능 | 설명 |  
 |:--:|:--|  
-| 검색  | 서비스 검색 기능 :  검색조건은 그룹ID ,<br/> 그룹명으로 검색 |
+| 검색  | 검색 기능 :  검색조건은 그룹ID ,<br/> 그룹명으로 검색 |
 | Text Export  | 조회된 화면(목록)을 Text 로 Export |
 | 프린트  | 조회된 화면(목록) 인쇄 |
 | 생성  | 그룹 생성 |
