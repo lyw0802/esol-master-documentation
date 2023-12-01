@@ -11,6 +11,12 @@
 - Keycloak 인증설정 (권장)
 - DB Service 를 이용한 인증 처리
 
+### 1.3. 주요기능 및 부가기능
+<img src = "./images/03-01-management-tools-access-manager-01-3.png" width = "600px"> </img>
+| 기능 | 설명 |  
+|:--:|:--|  
+| Apply & Save  | Keycloak인증설정 저장 및 적용 |
+| 인증설명서  | 인증처리에 대한 자세한 정보 |
 
 ## 2. 사용법
 ### 2.1. Keycloak 인증 설정
