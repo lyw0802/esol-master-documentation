@@ -49,7 +49,7 @@
 | DB 연결 ID | DB서비스에서 기본적으로 사용할 DB POOl(connection)<br/> menu > 연결정보 > DB연결 에서 생성된 pool<br/>[DB POOL 생성 방법 참조](/connection-information/01-connection-information-database.md) |
 | 상태 | 활성/비활성<br/>비활성일 경우 URL 호출이 제한되나, Schedule Service에서 사용 가능 |
 | 인증체크 | 사용/미사용 <br/>미사용이면 누구나 사용 호출 가능 하고, 발급된 Token이 유효한 경우나 로그인 세션이 있는 경우만 사용 여부 정의 |
-| POOL 유형 | 전체(선택한 DB연결ID 하나만 사용 TRANSACTION가능):모든 쿼리는 'DB연결 ID'에서 선택한 하나의 DB POOL 사용 <br/>개별(각각의 QUERY의 DB연결ID를 사용 TRANSACTION불가) : 쿼리별로 각각 DB POOL을 지정하여 사용 |
+| 연결구분 | 전체(현재화면에서 선택한 'DB연결ID' 만 사용 - one connection):모든 쿼리는 'DB연결 ID'에서 선택한 하나의 DB POOL 사용 <br/>개별(각 QUERY의 'DB연결ID'를 사용 - multi connection) : 쿼리별로 각각 DB POOL을 지정하여 사용 |
 | DB Service Items | Items 생성 참조<br/>[2.3. Items 생성 참조](#23-Items-생성)|
 
 ### 2.3. Items 생성
